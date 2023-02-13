@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section aside';
+
+        }
+
+        .item {
+            background-color: yellow;
+            border: 2px solid black;
+        }
+
+        #navbar {
+            grid-area: navbar;
+        }
+
+        #section {
+            grid-area: section;
+        }
+
+        #aside {
+            grid-area: aside;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            home contact about service
+
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ratione eligendi magni dicta ipsam quo
+            dignissimos? Voluptatem sit illo quibusdam, totam minima ad in natus eius eum aspernatur corrupti dolorem
+            dolor maiores voluptatum quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum commodi, ratione
+            quisquam error expedita beatae! Saepe corrupti nemo blanditiis, tenetur magni incidunt asperiores animi
+            exercitationem vitae aperiam nostrum illum, labore et ab fugit quas accusantium autem cum sit! Inventore
+            ipsa aut voluptas culpa eius labore tempora id, aliquid veritatis laudantium laboriosam voluptatibus
+            accusantium ullam architecto doloribus quaerat facere ducimus expedita eveniet, ad, neque doloremque
+            aspernatur. Deleniti asperiores ea magni minima, vero quo sit, atque, sed vitae distinctio aliquid aliquam?
+            Sapiente ducimus necessitatibus neque culpa rerum voluptate, nostrum perspiciatis labore, magni sit, quasi
+            quas voluptas facere. Rerum quaerat perspiciatis incidunt illum adipisci et maxime. Explicabo tenetur error
+            nostrum architecto voluptatem, molestiae, maxime consequuntur deleniti corporis eum dolore rem mollitia
+            beatae obcaecati facilis numquam reprehenderit et. Et magnam libero eaque unde error officiis earum adipisci
+            omnis quibusdam sint, voluptatem optio suscipit quisquam doloremque odio nihil autem ex. Placeat libero rem
+            quia deleniti explicabo quaerat magni unde nostrum laudantium blanditiis minus, distinctio maxime odio
+            impedit minima, sapiente commodi velit rerum labore perferendis pariatur reprehenderit laboriosam quos?
+            Voluptatibus iste minima fugiat repellendus possimus ab id, consectetur debitis quidem sint aliquid
+            architecto? Beatae amet, incidunt neque ea, blanditiis molestias provident consectetur sequi sint, facilis
+            voluptatibus earum quos nihil! Quibusdam ex praesentium quae optio voluptates blanditiis, ipsam aperiam
+            facere repellat animi ea suscipit impedit quas excepturi velit? Illo tempore explicabo impedit sint eos
+            corporis saepe iusto quisquam commodi, alias architecto ipsam unde asperiores voluptatibus quibusdam nostrum
+            error quod natus iste velit! Nemo perferendis sed ex, voluptatum esse quia. Sapiente quisquam ex optio
+            inventore nostrum alias fugiat molestias unde, quia labore. Odio aut adipisci aspernatur quidem omnis
+            officiis qui tempore sed ex non dignissimos dicta id, cupiditate, dolores porro sunt rerum consequatur ab
+            excepturi quis? At exercitationem ad officia animi illo ipsum delectus est temporibus enim quo!
+        </div>
+        <div id="aside" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia deleniti dolorum!
+        </div>
+
+        <!-- <div class="item">item-1</div>
+<div class="item">item-2</div>
+<div class="item">item-3</div>
+<div class="item">item-4</div>
+<div class="item">item-5</div>
+<div class="item">item-6</div>
+<div class="item">item-7</div>
+<div class="item">item-8</div>
+<div class="item">item-9</div>
+<div class="item">item-10</div>
+<div class="item">item-11</div>
+<div class="item">item-12</div>
+<div class="item">item-13</div>
+<div class="item">item-14</div>
+ -->
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirm and promt</title>
+</head>
+<body>
+    <script>
+        // alert in in-browser javascript does not return anything
+    //  alert("this is a message");
+    // let name=prompt("what is your name?", "Guest");
+    // console.log(name);
+    let deletepost=confirm("do really want to delete this post");
+    // console.log(deletepost);
+    if(deletepost){
+        console.log("post has been deleted successfully");
+    }
+    else{
+        console.log("post has not been deleted");
+    }
+
+    </script>
+</body>
+</html>
